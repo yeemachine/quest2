@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>if</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+$(document).ready(function(){
+      var split1 = confirm("Left?");
+      if(split1 === true) {
+        console.log("You turned left.");
+        $("body").html("<h1>You turned left.</h1>");
+      } else {
+        console.log("You turned right.")
+          $("body").html("<h1>You turned right.</h1>");
+      }
+      var split2 = confirm("Left?");
+      if(split2 === true) {
+        console.log("You turned left.");
+              $("body").html("<h1>You found the Holy Sword Aelx.</h1>");
+      } else {
+        console.log("You died.")
+            $("body").html("<h1>You Died. Aelx has revived you.</h1>");
+      }
+        var split3 = confirm("Left?");
+      if(split3 === true) {
+        console.log("You turned left.");
+              $("body").html("<h1>You turned left. You are too hungry to move.</h1>");
+      } else {
+        console.log("You turned right.");
+        $("body").html("<h1>You turned right. Your wives are angry with you.</h1>");
+
+      }
+      var split4 = confirm("Left?");
+      if(split4 === true) {
+        console.log("You turned left.");
+              $("body").html("<h1>You stand still.</h1>");
+      } else {
+        console.log("You turned right.")
+        $("body").html("<h1>You have no life.</h1>");
+
+      }
+      var split5 = confirm("Left?");
+      if(split5 === true) {
+        console.log("You turned left.");
+              $("body").html("<h1>You turned left.</h1>");
+      } else {
+        console.log("You turned right.")
+        $("body").html("<h1>You turned right.</h1>");
+
+      }
+      var split6 = confirm("Left?");
+
+        if(split6 === true) {
+        console.log("You died.");
+          $("body").html("<h1>You Died.</h1>");
+      } else {
+        console.log("You turned right.")
+        $("body").html("<h1>You turned right.</h1>");
+
+      }
+
+
+
+
+  });
+    </script>
+  <style>
+    body{
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body>
+
+  </body>
+</html>
